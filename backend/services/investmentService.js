@@ -1,5 +1,5 @@
 // services/investmentService.js
-const Investment = require('../models/Investment'); // Adjust the path according to your project structure
+const Investment = require('../models/investment'); // Adjust the path according to your project structure
 
 class InvestmentService {
   static async getAllInvestments() {
