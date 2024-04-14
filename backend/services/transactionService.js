@@ -5,7 +5,7 @@ const transaction = require('../models/transactions'); // Ensure this path match
 const BankAccount = require('../models/BankAccount'); // Adjust path as necessary
 const sequelize = require('../db');
 const momo=require('../models/momo')
-const User=require('../models/Userdetails')
+//const User=require('../models/Userdetails')
 
 class transactionService {
     // Process a deposit transaction
