@@ -54,7 +54,7 @@ app.use(async (req, res, next) => {
     try {
       // Assuming you have a function to get user data based on ID
       // Adjust the path to your User model and method as necessary
-      const User = require('./models/user');
+      const User = require('./models/User');
       const user = await User.findByPk(req.session.user_id);
       
       if (user) {
