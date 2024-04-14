@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../db');
-const User = require('./user'); // Adjust this path as necessary
+const User = require('../models/User'); // Adjust this path as necessary
 const Program = require('./programs'); // Adjust this path as necessary
 
 class UserProgram extends Model {}
