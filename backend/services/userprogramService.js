@@ -1,6 +1,6 @@
 // services/UserProgramService.js
 const UserProgram = require('../models/userprograms'); // Adjust the path as necessary
-const User = require('../models/user'); // Adjust the path as necessary
+const User = require('../models/User'); // Adjust the path as necessary
 const Programs = require('../models/programs'); // Adjust the path as necessary
 
 class UserProgramService {
