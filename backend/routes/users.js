@@ -1,8 +1,8 @@
 const express = require('express');
 const bcrypt = require('bcrypt');
-const crypto = require('crypto');
+const crypto = require('crypto')
 const nodemailer = require('nodemailer');
-const User = require('../models/user'); // Ensure this path points to your User model
+const User = require('../models/User'); // Ensure this path points to your User model
 const BankAccount = require('../models/BankAccount'); // Ensure this points to your BankAccount model
 require('dotenv').config();
 //const nodemailer = require('nodemailer');
