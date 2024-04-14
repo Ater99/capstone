@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const UserProgramService = require('../services/userProgramService');
+const UserProgramService = require('../services/userprogramService');
 const Program = require('../models/programs'); // Import your Program model
 
 // Enroll a user in a program
