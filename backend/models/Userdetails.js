@@ -1,7 +1,7 @@
 // models/userDetails.js
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../db');
-const User = require('./user'); // Ensure path correctness
+const User = require('..models/User'); // Ensure path correctness
 
 class UserDetails extends Model {}
 
